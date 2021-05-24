@@ -71,7 +71,7 @@ h4{
 button{
     font-family: Tex Gyre Adventor, sans-serif;
     src: url("src/fonts/texgyreadventor-bold.otf");
-    font-size: calc(1.5625rem + (28 - 25) * (100vw - 320px)/(1600 - 320));
+    font-size: calc(1.25rem + (28 - 20) * (100vw - 320px)/(1600 - 320));
     //font-size: 2.1875rem;
 }
 
