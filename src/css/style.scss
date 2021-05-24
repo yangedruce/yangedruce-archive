@@ -19,7 +19,7 @@ h1{
     src: url("src/fonts/BebasNeue-bold.otf");
     //font-size: 31.25rem;//
     //font-size: 9rem;//
-    font-size: calc(9rem + (360 - 144) * (100vw - 320px)/(1600 - 320));
+    font-size: calc(7rem + (360 - 116) * (100vw - 320px)/(1600 - 320));
     line-height: 0.9;
     margin-top: calc(2rem + (144 - 32) * (100vw - 320px)/(1600 - 320));
     //margin-top: 10rem;
