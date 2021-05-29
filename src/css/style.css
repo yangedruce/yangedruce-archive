@@ -3,8 +3,7 @@ body {
 }
 
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1, h2, h3, h4 {
@@ -79,7 +78,6 @@ button {
   padding-right: 35px;
   border-bottom: 2px solid #7A5A4C;
 }
-
 @media (min-width: 1200px) {
   .nav-container {
     margin-top: 50px;
@@ -90,51 +88,42 @@ button {
     border-bottom: 0;
   }
 }
-
 .nav-container .nav-main a {
   padding-right: 30px;
 }
-
 @media (min-width: 1200px) {
   .nav-container .nav-main a {
     border-right: 2px solid #7A5A4C;
   }
 }
-
 .nav-container .nav-main a img {
   width: 27px;
   height: 40px;
 }
-
 @media (min-width: 1200px) {
   .nav-container .nav-main a img {
     width: 46px;
     height: 66px;
   }
 }
-
 .nav-container .nav-main .nav-text {
   padding-left: 30px;
   color: #7a5a4c;
 }
-
 .nav-container .nav-main .nav-text .nav-title {
   font-weight: bold;
   font-size: 1.5rem;
 }
-
 .nav-container button {
   border: none;
   background: transparent;
   width: 55px;
 }
-
 .nav-container button div {
   width: 55px;
   border: 2px solid #7A5A4C;
   margin: 10px 0;
 }
-
 .nav-container .nav-links {
   position: fixed;
   left: 0;
@@ -145,24 +134,19 @@ button {
   z-index: 1000;
   overflow: hidden;
   padding: 0;
-  -webkit-transition: ease-in-out 0.15s;
   transition: ease-in-out 0.15s;
 }
-
 .nav-container .nav-links.nav-links-open {
   width: 215px;
 }
-
 .nav-container .nav-links a {
   margin-left: 32px;
   margin-top: 45px;
   color: #F5F5F5;
 }
-
 .nav-container .nav-links a.active {
   color: #C6BFBE;
 }
-
 @media (min-width: 1200px) {
   .nav-container .nav-links {
     position: initial;
@@ -196,44 +180,34 @@ button {
 .home {
   height: 100vh;
 }
-
 .home h1, .home h2, .home h3, .home h4, .home p, .home hr, .home a, .home button, .home ul, .home li {
   color: #7a5a4c;
 }
-
 .home hr {
   height: 2px;
   opacity: 1;
 }
-
 .home .row .link {
   min-height: 375px;
 }
-
 .home .row .link:nth-child(2) {
   background-color: #F5F5F5;
 }
-
 .home .row .link:nth-child(3) {
   background-color: #EFEFEF;
 }
-
 .home .row .link:nth-child(4) {
   background-color: #E0DDDD;
 }
-
 .home .row .link:nth-child(5) {
   background-color: #DBD5D5;
 }
-
 .home .row .link:nth-child(6) {
   background-color: #C6BFBE;
 }
-
 @media (min-width: 1200px) {
   .home .row .link {
     height: 50vh;
-    -webkit-transition: ease-in-out 0.25s;
     transition: ease-in-out 0.25s;
   }
   .home .row .link:nth-child(2):hover, .home .row .link:nth-child(3):hover, .home .row .link:nth-child(4):hover, .home .row .link:nth-child(5):hover, .home .row .link:nth-child(6):hover {
@@ -243,19 +217,16 @@ button {
     color: #ffffff;
   }
 }
-
 .home .row .content-box {
   height: 350px;
   padding-top: 55px;
 }
-
 @media (min-width: 768px) {
   .home .row .content-box {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 }
-
 @media (min-width: 1200px) {
   .home .row .content-box {
     height: 200px;
@@ -263,21 +234,17 @@ button {
     margin-bottom: 25px;
   }
 }
-
 .home .row .content-box img {
   max-width: 100%;
   height: 220px;
 }
-
 @media (min-width: 1200px) {
   .home .row .content-box img {
     padding-top: 0;
-    -webkit-transition: ease-in-out 0.25s;
     transition: ease-in-out 0.25s;
     height: 165px;
   }
 }
-
 @media (min-width: 1200px) {
   .home .row .content-box:hover img {
     height: 185px;
@@ -295,7 +262,6 @@ button {
   width: 100%;
   max-width: 100%;
 }
-
 @media (min-width: 992px) {
   .container-border {
     border: 2px solid #7A5A4C;
@@ -310,12 +276,10 @@ button {
 .about h1, .about h2, .about h3, .about h4, .about p, .about hr, .about button, .about a, .about ul, .about li, .portfolio h1, .portfolio h2, .portfolio h3, .portfolio h4, .portfolio p, .portfolio hr, .portfolio button, .portfolio a, .portfolio ul, .portfolio li, .clients h1, .clients h2, .clients h3, .clients h4, .clients p, .clients hr, .clients button, .clients a, .clients ul, .clients li, .sup h1, .sup h2, .sup h3, .sup h4, .sup p, .sup hr, .sup button, .sup a, .sup ul, .sup li, .contact h1, .contact h2, .contact h3, .contact h4, .contact p, .contact hr, .contact button, .contact a, .contact ul, .contact li {
   color: #7a5a4c;
 }
-
 .about hr, .portfolio hr, .clients hr, .sup hr, .contact hr {
   height: 2px;
   opacity: 1;
 }
-
 .about button, .portfolio button, .clients button, .sup button, .contact button {
   border: 2px solid #7A5A4C;
   padding: 10px 34px;
@@ -323,7 +287,6 @@ button {
   cursor: pointer;
   border-radius: 50px;
 }
-
 .about .about-img, .about .portfolio-img, .about .clients-img,
 .about .sup-img, .about .contact-img, .portfolio .about-img, .portfolio .portfolio-img, .portfolio .clients-img,
 .portfolio .sup-img, .portfolio .contact-img, .clients .about-img, .clients .portfolio-img, .clients .clients-img,
@@ -336,87 +299,71 @@ button {
   z-index: 1;
   position: absolute;
 }
-
 .about .content-img-1, .portfolio .content-img-1, .clients .content-img-1, .sup .content-img-1, .contact .content-img-1 {
   max-width: 100%;
   height: calc(120px + (190 - 120) * (100vw - 320px)/(1600 - 320));
   margin-top: calc(20px + (50 - 20) * (100vw - 320px)/(1600 - 320));
   margin-bottom: calc(20px + (50 - 20) * (100vw - 320px)/(1600 - 320));
 }
-
 .about .content-img-2, .portfolio .content-img-2, .clients .content-img-2, .sup .content-img-2, .contact .content-img-2 {
   max-width: 100%;
   height: calc(30px + (50 - 30) * (100vw - 320px)/(1600 - 320));
   margin-top: calc(10px + (20 - 10) * (100vw - 320px)/(1600 - 320));
   margin-bottom: calc(10px + (20 - 10) * (100vw - 320px)/(1600 - 320));
 }
-
 .about .row.content-box-main-1, .portfolio .row.content-box-main-1, .clients .row.content-box-main-1, .sup .row.content-box-main-1, .contact .row.content-box-main-1 {
   margin-top: 40px;
 }
-
 .about .row.content-box-main-1 .col-md-4, .portfolio .row.content-box-main-1 .col-md-4, .clients .row.content-box-main-1 .col-md-4, .sup .row.content-box-main-1 .col-md-4, .contact .row.content-box-main-1 .col-md-4 {
   margin-top: 40px;
 }
-
 .about .row.content-box-main-2, .about .row.content-box-main-4, .portfolio .row.content-box-main-2, .portfolio .row.content-box-main-4, .clients .row.content-box-main-2, .clients .row.content-box-main-4, .sup .row.content-box-main-2, .sup .row.content-box-main-4, .contact .row.content-box-main-2, .contact .row.content-box-main-4 {
   margin-top: 80px;
 }
-
 .about .row.content-box-main-2 .col-md-4, .about .row.content-box-main-4 .col-md-4, .portfolio .row.content-box-main-2 .col-md-4, .portfolio .row.content-box-main-4 .col-md-4, .clients .row.content-box-main-2 .col-md-4, .clients .row.content-box-main-4 .col-md-4, .sup .row.content-box-main-2 .col-md-4, .sup .row.content-box-main-4 .col-md-4, .contact .row.content-box-main-2 .col-md-4, .contact .row.content-box-main-4 .col-md-4 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .about .row.content-box-main-3, .portfolio .row.content-box-main-3, .clients .row.content-box-main-3, .sup .row.content-box-main-3, .contact .row.content-box-main-3 {
   margin-top: 60px;
   margin-bottom: 190px;
 }
-
 .about .row.content-box-main-3 .col-md-4, .portfolio .row.content-box-main-3 .col-md-4, .clients .row.content-box-main-3 .col-md-4, .sup .row.content-box-main-3 .col-md-4, .contact .row.content-box-main-3 .col-md-4 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .about .row.content-box-main-4, .portfolio .row.content-box-main-4, .clients .row.content-box-main-4, .sup .row.content-box-main-4, .contact .row.content-box-main-4 {
   margin-top: 60px;
   margin-bottom: 160px;
 }
-
 .about .row.content-box-main-4 .col-md-4, .portfolio .row.content-box-main-4 .col-md-4, .clients .row.content-box-main-4 .col-md-4, .sup .row.content-box-main-4 .col-md-4, .contact .row.content-box-main-4 .col-md-4 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-
 .about .row.content-box-main-5, .portfolio .row.content-box-main-5, .clients .row.content-box-main-5, .sup .row.content-box-main-5, .contact .row.content-box-main-5 {
   margin-top: 80px;
 }
-
 .about .row.content-box-main-6, .portfolio .row.content-box-main-6, .clients .row.content-box-main-6, .sup .row.content-box-main-6, .contact .row.content-box-main-6 {
   margin-top: 80px;
   border: 2px solid #7A5A4C;
   height: 100%;
 }
-
 .about .row.content-box-main-7, .portfolio .row.content-box-main-7, .clients .row.content-box-main-7, .sup .row.content-box-main-7, .contact .row.content-box-main-7 {
   margin-top: 50px;
   border: 2px solid #7A5A4C;
   height: 100%;
 }
-
 .about .row.content-box-10, .portfolio .row.content-box-10, .clients .row.content-box-10, .sup .row.content-box-10, .contact .row.content-box-10 {
   border-bottom: 2px solid #7A5A4C;
   border-left: 2px solid #7A5A4C;
   border-right: 2px solid #7A5A4C;
 }
-
 .about .row.content-box-11, .portfolio .row.content-box-11, .clients .row.content-box-11, .sup .row.content-box-11, .contact .row.content-box-11 {
   border-bottom: 2px solid #7A5A4C;
   border-left: 2px solid #7A5A4C;
   border-right: 2px solid #7A5A4C;
   margin-bottom: 190px;
 }
-
 .about .row.container-footer, .portfolio .row.container-footer, .clients .row.container-footer, .sup .row.container-footer, .contact .row.container-footer {
   padding-right: 30px;
   padding-left: 30px;
@@ -425,13 +372,11 @@ button {
   border-top: 2px solid #7A5A4C;
   border-bottom: 2px solid #7A5A4C;
 }
-
 @media (min-width: 320px) {
   .about .row.container-footer, .portfolio .row.container-footer, .clients .row.container-footer, .sup .row.container-footer, .contact .row.container-footer {
     text-align: center;
   }
 }
-
 @media (min-width: 992px) {
   .about .row.container-footer, .portfolio .row.container-footer, .clients .row.container-footer, .sup .row.container-footer, .contact .row.container-footer {
     border-top: 0;
@@ -444,11 +389,9 @@ button {
     padding-right: 50px;
   }
 }
-
 .about .row .content-box-1, .about .row .content-box-2, .about .row .content-box-main-5 p, .portfolio .row .content-box-1, .portfolio .row .content-box-2, .portfolio .row .content-box-main-5 p, .clients .row .content-box-1, .clients .row .content-box-2, .clients .row .content-box-main-5 p, .sup .row .content-box-1, .sup .row .content-box-2, .sup .row .content-box-main-5 p, .contact .row .content-box-1, .contact .row .content-box-2, .contact .row .content-box-main-5 p {
   margin-top: 80px;
 }
-
 .about .row .content-box-3, .about .row .content-box-4, .about .row .content-box-5,
 .about .row .content-box-6, .about .row .content-box-7, .about .row .content-box-8, .portfolio .row .content-box-3, .portfolio .row .content-box-4, .portfolio .row .content-box-5,
 .portfolio .row .content-box-6, .portfolio .row .content-box-7, .portfolio .row .content-box-8, .clients .row .content-box-3, .clients .row .content-box-4, .clients .row .content-box-5,
@@ -458,49 +401,40 @@ button {
   border: 2px solid #7A5A4C;
   height: 100%;
 }
-
 .about .row .content-box-3 p, .portfolio .row .content-box-3 p, .clients .row .content-box-3 p, .sup .row .content-box-3 p, .contact .row .content-box-3 p {
   border-top: 2px solid #7A5A4C;
 }
-
 .about .row .content-box-4 p, .portfolio .row .content-box-4 p, .clients .row .content-box-4 p, .sup .row .content-box-4 p, .contact .row .content-box-4 p {
   border-top: 2px solid #7A5A4C;
 }
-
 .about .row .content-box-5 p, .portfolio .row .content-box-5 p, .clients .row .content-box-5 p, .sup .row .content-box-5 p, .contact .row .content-box-5 p {
   border-top: 2px solid #7A5A4C;
 }
-
 .about .row .content-box-9 p, .portfolio .row .content-box-9 p, .clients .row .content-box-9 p, .sup .row .content-box-9 p, .contact .row .content-box-9 p {
   margin-top: -10px;
   border: none;
 }
-
 .about .row .under-box, .portfolio .row .under-box, .clients .row .under-box, .sup .row .under-box, .contact .row .under-box {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-right: 30px;
   padding-left: 30px;
 }
-
 .about .row .under-box-2, .portfolio .row .under-box-2, .clients .row .under-box-2, .sup .row .under-box-2, .contact .row .under-box-2 {
   margin-top: 30px;
   margin-bottom: 190px;
   padding-right: 30px;
   padding-left: 30px;
 }
-
 .about .row .contact-button, .about .row .portfolio-button, .portfolio .row .contact-button, .portfolio .row .portfolio-button, .clients .row .contact-button, .clients .row .portfolio-button, .sup .row .contact-button, .sup .row .portfolio-button, .contact .row .contact-button, .contact .row .portfolio-button {
   border: 0;
   margin-top: 50px;
 }
-
 @media (min-width: 768px) {
   .about .row .contact-button, .about .row .portfolio-button, .portfolio .row .contact-button, .portfolio .row .portfolio-button, .clients .row .contact-button, .clients .row .portfolio-button, .sup .row .contact-button, .sup .row .portfolio-button, .contact .row .contact-button, .contact .row .portfolio-button {
     margin-top: 0;
   }
 }
-
 .about .row .contact-button button, .about .row .portfolio-button button, .portfolio .row .contact-button button, .portfolio .row .portfolio-button button, .clients .row .contact-button button, .clients .row .portfolio-button button, .sup .row .contact-button button, .sup .row .portfolio-button button, .contact .row .contact-button button, .contact .row .portfolio-button button {
   background: transparent;
   text-align: center;
@@ -510,49 +444,40 @@ footer {
   margin-top: 50px;
   margin-bottom: 80px;
 }
-
 @media (min-width: 768px) {
   footer {
     margin-top: 80px;
   }
 }
-
 footer .footer-icon a {
   margin: 20px 0;
   padding: 0 15px;
   border-right: 2px solid #7A5A4C;
 }
-
 footer .footer-icon a:last-child {
   border-right: 0;
 }
-
 @media (min-width: 768px) {
   footer .footer-icon a:last-child {
     padding-right: 0;
   }
 }
-
 footer .footer-icon a svg {
   margin-top: -3px;
   width: auto;
   height: 16px;
 }
-
 @media (min-width: 768px) {
   footer .footer-icon {
     margin-right: 50px;
   }
 }
-
 footer .footer-text {
   color: #7a5a4c;
   margin: 20px 0;
 }
-
 @media (min-width: 768px) {
   footer .footer-text {
     margin-left: 50px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
