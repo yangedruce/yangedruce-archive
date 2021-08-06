@@ -24,7 +24,7 @@ h2 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-bold.otf");
   font-size: calc(1.25rem + (59.2 - 20) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(5rem + (230 - 40) * (100vw - 320px)/(1600 - 320));
+  margin-top: calc(9rem + (230 - 144) * (100vw - 320px)/(1600 - 320));
 }
 
 h3 {
@@ -295,7 +295,7 @@ button {
 .contact .sup-img, .contact .contact-img {
   max-width: 100%;
   height: calc(150px + (380 - 150) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(150px + (490 - 150) * (100vw - 320px)/(1600 - 320));
+  margin-top: calc(200px + (490 - 150) * (100vw - 320px)/(1600 - 320));
   z-index: 1;
   position: absolute;
 }
