@@ -15,28 +15,28 @@ h1, h2, h3, h4 {
 h1 {
   font-family: Bebas Neue, sans-serif;
   src: url("src/fonts/BebasNeue-bold.otf");
-  font-size: calc(7rem + (360 - 116) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(7rem + 244 * (100vw - 320px) / 1280);
   line-height: 0.9;
-  margin-top: calc(2rem + (144 - 32) * (100vw - 320px)/(1600 - 320));
+  margin-top: calc(2rem + 112 * (100vw - 320px) / 1280);
 }
 
 h2 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-bold.otf");
-  font-size: calc(1.25rem + (59.2 - 20) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(9rem + (230 - 144) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(1.25rem + 39.2 * (100vw - 320px) / 1280);
+  margin-top: calc(9rem + 86 * (100vw - 320px) / 1280);
 }
 
 h3 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-bold.otf");
-  font-size: calc(1.5625rem + (28 - 25) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(1.5625rem + 3 * (100vw - 320px) / 1280);
 }
 
 h4 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-bold.otf");
-  font-size: calc(0.9375rem + (25 - 15) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(0.9375rem + 10 * (100vw - 320px) / 1280);
 }
 
 .p1, .p2 {
@@ -48,19 +48,19 @@ h4 {
 .p1 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-regular.otf");
-  font-size: calc(0.9375rem + (25 - 15) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(0.9375rem + 10 * (100vw - 320px) / 1280);
 }
 
 .p2 {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-regular.otf");
-  font-size: calc(0.5625rem + (15 - 9) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(0.5625rem + 6 * (100vw - 320px) / 1280);
 }
 
 button {
   font-family: Tex Gyre Adventor, sans-serif;
   src: url("src/fonts/texgyreadventor-bold.otf");
-  font-size: calc(1.25rem + (28 - 20) * (100vw - 320px)/(1600 - 320));
+  font-size: calc(1.25rem + 8 * (100vw - 320px) / 1280);
 }
 
 .logo {
@@ -294,22 +294,22 @@ button {
 .sup .sup-img, .sup .contact-img, .contact .about-img, .contact .portfolio-img, .contact .clients-img,
 .contact .sup-img, .contact .contact-img {
   max-width: 100%;
-  height: calc(150px + (380 - 150) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(200px + (490 - 150) * (100vw - 320px)/(1600 - 320));
+  height: calc(150px + 230 * (100vw - 320px) / 1280);
+  margin-top: calc(200px + 340 * (100vw - 320px) / 1280);
   z-index: 1;
   position: absolute;
 }
 .about .content-img-1, .portfolio .content-img-1, .clients .content-img-1, .sup .content-img-1, .contact .content-img-1 {
   max-width: 100%;
-  height: calc(120px + (190 - 120) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(20px + (50 - 20) * (100vw - 320px)/(1600 - 320));
-  margin-bottom: calc(20px + (50 - 20) * (100vw - 320px)/(1600 - 320));
+  height: calc(120px + 70 * (100vw - 320px) / 1280);
+  margin-top: calc(20px + 30 * (100vw - 320px) / 1280);
+  margin-bottom: calc(20px + 30 * (100vw - 320px) / 1280);
 }
 .about .content-img-2, .portfolio .content-img-2, .clients .content-img-2, .sup .content-img-2, .contact .content-img-2 {
   max-width: 100%;
-  height: calc(30px + (50 - 30) * (100vw - 320px)/(1600 - 320));
-  margin-top: calc(10px + (20 - 10) * (100vw - 320px)/(1600 - 320));
-  margin-bottom: calc(10px + (20 - 10) * (100vw - 320px)/(1600 - 320));
+  height: calc(30px + 20 * (100vw - 320px) / 1280);
+  margin-top: calc(10px + 10 * (100vw - 320px) / 1280);
+  margin-bottom: calc(10px + 10 * (100vw - 320px) / 1280);
 }
 .about .row.content-box-main-1, .portfolio .row.content-box-main-1, .clients .row.content-box-main-1, .sup .row.content-box-main-1, .contact .row.content-box-main-1 {
   margin-top: 40px;
